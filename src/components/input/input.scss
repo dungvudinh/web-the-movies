@@ -1,0 +1,12 @@
+@use "../../sass/variable" as *;
+
+input 
+{
+    border:none;
+    background-color: $black;
+    padding:0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: $border-radius;
+    font-family: $font-family;
+    color:$txt-color;
+}

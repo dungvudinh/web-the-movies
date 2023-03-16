@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import * as React from "react";
+import { Suspense } from "react";
+import './App.scss';
+import {Routes, Route} from "react-router-dom";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
+import Home from "./pages/Home";
+const Catalog= React.lazy(()=> import ('./pages/Catalog'));
+const Detail= React.lazy(()=>import ('./pages/detail/Detail'));
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'> 
+      <Header />
+      <Suspense fallback={<div>Loading...</div>}>
+      <Routes>
+        <Route path ="/" element ={<Home />}/>
+        <Route  path ="/:category" element ={<Catalog />}/>
+        <Route path ="/:category/:id" element ={<Detail />}/>
+        <Route path ="/:category/search/:keyword"  element={<Catalog />}/>
+      </Routes>
+      </Suspense>
+      <Footer />
     </div>
-  );
+  )
 }
 
 export default App;
