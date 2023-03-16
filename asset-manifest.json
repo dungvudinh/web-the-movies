@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/web-the-movies/static/css/main.715ffc53.css",
+    "main.js": "/web-the-movies/static/js/main.594b6786.js",
+    "static/css/769.556b6b08.chunk.css": "/web-the-movies/static/css/769.556b6b08.chunk.css",
+    "static/js/769.be324be6.chunk.js": "/web-the-movies/static/js/769.be324be6.chunk.js",
+    "static/css/778.181c1c5c.chunk.css": "/web-the-movies/static/css/778.181c1c5c.chunk.css",
+    "static/js/778.7b9e78ce.chunk.js": "/web-the-movies/static/js/778.7b9e78ce.chunk.js",
+    "static/js/787.318a72b8.chunk.js": "/web-the-movies/static/js/787.318a72b8.chunk.js",
+    "static/media/footer-bg.jpg": "/web-the-movies/static/media/footer-bg.67e95f05e76a8cebf7e2.jpg",
+    "static/media/tmovie.png": "/web-the-movies/static/media/tmovie.67797e942e59deb68592.png",
+    "static/media/noImage.jpg": "/web-the-movies/static/media/noImage.1287f47eabc81133b950.jpg",
+    "index.html": "/web-the-movies/index.html",
+    "main.715ffc53.css.map": "/web-the-movies/static/css/main.715ffc53.css.map",
+    "main.594b6786.js.map": "/web-the-movies/static/js/main.594b6786.js.map",
+    "769.556b6b08.chunk.css.map": "/web-the-movies/static/css/769.556b6b08.chunk.css.map",
+    "769.be324be6.chunk.js.map": "/web-the-movies/static/js/769.be324be6.chunk.js.map",
+    "778.181c1c5c.chunk.css.map": "/web-the-movies/static/css/778.181c1c5c.chunk.css.map",
+    "778.7b9e78ce.chunk.js.map": "/web-the-movies/static/js/778.7b9e78ce.chunk.js.map",
+    "787.318a72b8.chunk.js.map": "/web-the-movies/static/js/787.318a72b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.715ffc53.css",
+    "static/js/main.594b6786.js"
+  ]
+}
